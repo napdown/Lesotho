@@ -1,0 +1,9 @@
+"0","plotly::plot_ly(type= 'bar', data= pr_tmp, x= ~Month, y= ~pr, name = 'Precipitation')%>%
+  plotly::add_lines(x= ~Month, y= ~tmean, mode = 'lines+markers',name= 'Temperature', yaxis='y2')%>%
+  #plotly::add_markers(x= ~Month, y= ~tmean, pch=1,color='#D21919', yaxis='y2', name='')%>%
+    plotly::layout(legend=list(orientation='h', y=-0.18,x=0.3), yaxis=list(title='Precipitation (mm)',showticklables=F, range=c(0,150)),width=600, height=500, title='Butha-Buthe \n (Mean 1981-2020)', yaxis2=ty)
+"
+"2","Warning:"
+"2"," Specifying width/height in layout() is now deprecated.
+Please specify in ggplotly() or plot_ly()
+"

@@ -1,0 +1,18 @@
+"0","library(flextable)"
+"0","library(magrittr)"
+"0","cprofile<-readxl::read_excel(""Tables_from_NAP.xlsx"", "
+"0","    sheet = ""country_profile"")"
+"2","New names:
+* `` -> ...2
+"
+"0","t1<-flextable(cprofile,col_keys = names(cprofile),"
+"0","  cwidth = 3,"
+"0","  cheight = 0.01,"
+"0","  defaults = list(),"
+"0","   theme_booktabs())"
+"0","t2<-fontsize(t1,part = 'all', size = 8)"
+"0","t3<-border_outer(t2,part = 'all', border = NULL)"
+"0","t4<-border_inner(t3,part = 'all', border = NULL)"
+"0","t5<-bold(t4,part='header')"
+"0","t6<-bold(t5,i=c(1:2,43))"
+"0","t6"

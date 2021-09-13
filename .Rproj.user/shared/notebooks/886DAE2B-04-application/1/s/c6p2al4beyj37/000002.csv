@@ -1,0 +1,278 @@
+"0","library(raster)"
+"2","Warning:"
+"2"," package ‘raster’ was built under R version 4.0.5
+"
+"2","Loading required package: sp
+"
+"2","Warning:"
+"2"," package ‘sp’ was built under R version 4.0.5
+"
+"0","library(rasterVis)"
+"2","Warning:"
+"2"," package ‘rasterVis’ was built under R version 4.0.5
+"
+"2","Loading required package: terra
+"
+"2","Warning:"
+"2"," package ‘terra’ was built under R version 4.0.5
+"
+"2","terra version 1.3.4
+"
+"2","Loading required package: lattice
+"
+"2","Warning:"
+"2"," package ‘lattice’ was built under R version 4.0.5
+"
+"2","Loading required package: latticeExtra
+"
+"2","Warning:"
+"2"," package ‘latticeExtra’ was built under R version 4.0.5
+"
+"0","library(reshape)"
+"2","Warning:"
+"2"," package ‘reshape’ was built under R version 4.0.5
+"
+"0","library(dplyr)"
+"2","Warning:"
+"2"," package ‘dplyr’ was built under R version 4.0.5
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following object is masked from ‘package:reshape’:
+
+    rename
+
+"
+"2","The following objects are masked from ‘package:terra’:
+
+    intersect, src, union
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(lubridate)"
+"2","
+Attaching package: ‘lubridate’
+
+"
+"2","The following object is masked from ‘package:reshape’:
+
+    stamp
+
+"
+"2","The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    intersect, union
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+"
+"0","library(tidyr)"
+"2","Warning:"
+"2"," package ‘tidyr’ was built under R version 4.0.5
+"
+"2","
+Attaching package: ‘tidyr’
+
+"
+"2","The following objects are masked from ‘package:reshape’:
+
+    expand, smiths
+
+"
+"2","The following object is masked from ‘package:terra’:
+
+    extract
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    extract
+
+"
+"0","library(magrittr)"
+"2","Warning:"
+"2"," package ‘magrittr’ was built under R version 4.0.5
+"
+"2","
+Attaching package: ‘magrittr’
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    extract
+
+"
+"2","The following objects are masked from ‘package:terra’:
+
+    extract, inset
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    extract
+
+"
+"0","library(R.utils)"
+"2","Warning:"
+"2"," package ‘R.utils’ was built under R version 4.0.5
+"
+"2","Loading required package: R.oo
+"
+"2","Loading required package: R.methodsS3
+"
+"2","R.methodsS3 v1.8.1 (2020-08-26 16:20:06 UTC) successfully loaded. See ?R.methodsS3 for help.
+"
+"2","R.oo v1.24.0 (2020-08-26 16:11:58 UTC) successfully loaded. See ?R.oo for help.
+"
+"2","
+Attaching package: ‘R.oo’
+
+"
+"2","The following object is masked from ‘package:R.methodsS3’:
+
+    throw
+
+"
+"2","The following object is masked from ‘package:magrittr’:
+
+    equals
+
+"
+"2","The following objects are masked from ‘package:terra’:
+
+    extend, trim
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    extend, trim
+
+"
+"2","The following objects are masked from ‘package:methods’:
+
+    getClasses, getMethods
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    attach, detach, load, save
+
+"
+"2","R.utils v2.10.1 (2020-08-26 22:50:31 UTC) successfully loaded. See ?R.utils for help.
+"
+"2","
+Attaching package: ‘R.utils’
+
+"
+"2","The following object is masked from ‘package:magrittr’:
+
+    extract
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    extract
+
+"
+"2","The following objects are masked from ‘package:terra’:
+
+    draw, extract, resample, wrap
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    extract, resample
+
+"
+"2","The following object is masked from ‘package:utils’:
+
+    timestamp
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    cat, commandArgs, getOption, inherits, isOpen, nullfile, parse, warnings
+
+"
+"0","library(sf)"
+"2","Warning:"
+"2"," package ‘sf’ was built under R version 4.0.5
+"
+"2","Linking to GEOS 3.9.0, GDAL 3.2.1, PROJ 7.2.1
+"
+"0","library(plotly)"
+"2","Warning:"
+"2"," package ‘plotly’ was built under R version 4.0.5
+"
+"2","Loading required package: ggplot2
+"
+"2","Warning:"
+"2"," package ‘ggplot2’ was built under R version 4.0.5
+"
+"2","
+Attaching package: ‘ggplot2’
+
+"
+"2","The following object is masked from ‘package:latticeExtra’:
+
+    layer
+
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:reshape’:
+
+    rename
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    select
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","library(ggplot2)"
+"0","library(rgee)"
+"2","Warning:"
+"2"," package ‘rgee’ was built under R version 4.0.5
+"
